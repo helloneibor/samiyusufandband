@@ -1,0 +1,11 @@
+.header {
+    background-image: url("https://i.ytimg.com/vi/4rVG9oKEvME/maxresdefault.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.first_menu {
+    background-color:red;
+    height:100px;
+}
