@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
 .header {
     background-image: url("https://i.ytimg.com/vi/4rVG9oKEvME/maxresdefault.jpg");
     height: 400px;
@@ -6,6 +8,56 @@
 }
 
 .first_menu {
-    background-color:red;
-    height:100px;
+    background-color:#2968E6;
+    margin-top: 10px;
+    text-align: center;
+    height:40px;
+    font-family: 'Slabo 27px', serif;
+    padding-top: 8px;
+}
+
+.menubuttons {
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.list-inline :hover {
+    background-color: #E65529;
+}
+
+.first_menu :hover {
+    color: black;
+    text-decoration: none;
+}
+
+.background-color {
+    height: 150px;
+    width: 100%;
+    background-color: #2E2522;
+    margin-top: 100%;
+}
+
+.client_logo {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin-top: -14%;
+}
+
+p {
+    color: white;
+    font-size: 10px;
+}
+
+.facebookicon {
+    /*float: left;*/
+    /*height: 25px;*/
+    /*width: 25px;*/
+    color:white;
+    font-size:20px;
+}
+
+.col-3 {
+   display: inline-block;
 }
