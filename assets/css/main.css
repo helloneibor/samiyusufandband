@@ -12,7 +12,7 @@
     height:40px;
     font-family: 'Slabo 27px', serif;
     padding-top: 8px;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .menubuttons {
@@ -41,6 +41,7 @@
     display: inline-block;
     height: 90%;
     width: 90%;
+    padding-left: 12%;
 }
 
 p {
@@ -48,31 +49,23 @@ p {
     font-size: 10px;
 }
 
-.facebookicon {
-    /*float: left;*/
-    /*height: 25px;*/
-    /*width: 25px;*/
+.socialicon {
     color:white;
     font-size:20px;
+    padding-left:15%;
 }
 
-.col-3 {
-   display: inline-block;
+.footer_para {
+    display: inline-block;
+    margin-top: 53px;
 }
-
-.col-5 {
-    margin-left: 12px;
-    margin-top: 65px;
-}
-
-.col-lg-6 {
-    height: 95%;
-    width: 95%;
+#footer_logo {
+    margin-top: 27px;
+    margin-bottom: 20px
 }
 
 .rempaddmarg {
-    padding:0px !important;
-    margin:0px !important;
+    padding:9px !important;
 }
 
 #textinvideo {
@@ -88,7 +81,7 @@ p {
 .SY_signaturename {
     position: absolute;
     z-index: 1;
-    top: 81%;
+    top: 75%;
     left: 4%;
     height: 90px;
     margin-top: 59px;
@@ -98,8 +91,240 @@ p {
     color: #C7A83A;
     position: absolute;
     z-index: 2;
-    top: 94%;
+    top: 88%;
     left: 31%;
     font-size: 26px;
     font-family: 'Dancing Script', cursive;
 }
+
+.sectionlines {
+    border: 2px solid #C7A83A;
+    margin: 50px;
+    margin-bottom: 10px;
+}
+
+.aboutSY {
+    margin-left: 110px;
+    padding-top: 70px;
+    font-size: 25px;
+    margin-bottom: 64px;
+}
+
+#section1_para {
+    color: black;
+    font-size: 15px;
+}
+
+.section1_paradiv {
+    /*height: 350px;*/
+    /*width: 520px;*/
+    /*display: inline-block;*/
+    margin-top: 7%;
+    margin-left: 18%;
+}
+
+.firstpara_img {
+    height: 272px;
+    width: 300px;
+}
+
+.firstpara_div {
+    margin-top: 56%;
+    padding-left: 2%;
+}
+
+.learnmore1 {
+    font-size: 16px;
+    color: black !important;
+    text-decoration: none;
+    padding-bottom: 6px;
+    margin: 0px;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+@media (max-width: 700px) and (min-width: 650px) {
+.SY_signaturename {
+    position: absolute;
+    z-index: 1;
+    top: 75%;
+    left: 12%;
+    height: 72px;
+    margin-top: 60px;
+}
+#textinvideo2 {
+    color: #C7A83A;
+    position: absolute;
+    z-index: 2;
+    top: 90%;
+    left: 39%;
+    font-size: 21px;
+    font-family: 'Dancing Script', cursive;
+}
+#textinvideo {
+    color: #C7A83A;
+    font-size: 22px;
+    position: absolute;
+    z-index: 1;
+    top: 2%;
+    left: 35%;
+    font-family: 'Dancing Script', cursive;
+}
+.rempaddmarg {
+    padding: 24px !important;
+}
+.menulist {
+    margin-left: 5px;
+}
+.first_menu {
+    background-color: #C7A83A;
+    margin-top: 10px;
+    text-align: center;
+    height: 40px;
+    font-family: 'Slabo 27px', serif;
+    padding-top: 8px;
+    margin-left: 8px;
+}
+.firstpara_img {
+    height: 259px;
+    width: 286px;
+    margin-top: -15px;
+}
+.aboutSY {
+    margin-left: 31px;
+    padding-top: 70px;
+    font-size: 26px;
+    margin-bottom: 61px;
+    margin-top: 17px;
+}
+#section1_para {
+    color: black;
+    font-size: 15px;
+    margin-top: -11px;
+}
+.icons {
+    margin-top: 56px;
+}
+}
+
+@media (max-width: 650px) and (min-width: 630px) {
+#textinvideo {
+    color: #C7A83A;
+    font-size: 22px;
+    position: absolute;
+    z-index: 1;
+    top: 2%;
+    left: 35%;
+    font-family: 'Dancing Script', cursive;
+}
+.SY_signaturename {
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 12%;
+    height: 67px;
+    margin-top: 60px;
+}
+#textinvideo2 {
+    color: #C7A83A;
+    position: absolute;
+    z-index: 2;
+    top: 85%;
+    left: 39%;
+    font-size: 19px;
+    font-family: 'Dancing Script', cursive;
+}
+#section1_para {
+    color: black;
+    font-size: 15px;
+    margin-top: -25px;
+}
+.menulist {
+    margin-left: -22px;
+}
+.aboutSY {
+    margin-left: 55px;
+    padding-top: 71px;
+    font-size: 24px;
+    margin-bottom: 88px;
+}
+.icons {
+    margin-top: 56px;
+    max-width: none;
+}
+}
+@media (max-width: 630px) and (min-width: 630px) {
+#textinvideo {
+    color: #C7A83A;
+    font-size: 28px;
+    position: absolute;
+    z-index: 1;
+    top: 1%;
+    left: 29%;
+    font-family: 'Dancing Script', cursive;
+}
+.SY_signaturename {
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 12%;
+    height: 67px;
+    margin-top: 60px;
+}
+#textinvideo2 {
+    color: #C7A83A;
+    position: absolute;
+    z-index: 2;
+    top: 85%;
+    left: 39%;
+    font-size: 19px;
+    font-family: 'Dancing Script', cursive;
+}
+.first_menu {
+    background-color: #C7A83A;
+    margin-top: 10px;
+    text-align: center;
+    height: 35px;
+    font-family: 'Slabo 23px', serif;
+    padding-top: 6px;
+    padding-left: 8px;
+    margin-left: 6px;
+}
+#section1_para {
+    color: black;
+    font-size: 15px;
+    margin-top: -25px;
+}
+.menubuttons {
+    margin: 4px;
+    color: white;
+    font-weight: bold;
+}
+.list-inline-item {
+    margin-right: -18px;
+}
+.rempaddmarg {
+    padding: 0px !important;
+}
+}
+/*@media (max-width: 365px) and (min-width: 325px){*/
+/*    #textinvideo2 {*/
+/*    color: #C7A83A;*/
+/*    position: absolute;*/
+/*    z-index: 2;*/
+/*    top: 44%;*/
+/*    left: 31%;*/
+/*    font-size: 12px;*/
+/*    font-family: 'Dancing Script', cursive;*/
+/*}*/
+/*.SY_signaturename {*/
+/*    position: absolute;*/
+/*    z-index: 1;*/
+/*    top: 28%;*/
+/*    left: 4%;*/
+/*    height: 52px;*/
+/*    margin-top: 59px;*/
+/*}*/
+/*}*/
