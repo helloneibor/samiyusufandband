@@ -9,10 +9,8 @@
     background-color:#C7A83A;
     margin-top: 10px;
     text-align: center;
-    height:40px;
     font-family: 'Slabo 27px', serif;
-    padding-top: 8px;
-    margin-left: 25px;
+    padding: 8px;
 }
 
 .menubuttons {
@@ -31,10 +29,10 @@
 }
 
 .background-color {
-    height: 150px;
+    /*height: 150px;*/
     width: 100%;
     background-color: #2E2522;
-    margin-top: 100%;
+    /*margin-top: 100%;*/
 }
 
 .client_logo {
@@ -65,7 +63,7 @@ p {
 }
 
 .rempaddmarg {
-    padding:9px !important;
+    padding:0px !important;
 }
 
 #textinvideo {
@@ -104,17 +102,17 @@ p {
     /*height: 350px;*/
     /*width: 520px;*/
     /*display: inline-block;*/
-    margin-top: 7%;
+    /*margin-top: 7%;*/
     margin-left: 18%;
 }
 .firstpara_img {
     height: 272px;
     width: 300px;
 }
-.firstpara_div {
+/*.firstpara_div {
     margin-top: 56%;
     padding-left: 2%;
-}
+}*/
 .learnmore1 {
     font-size: 16px;
     color: black !important;
@@ -126,7 +124,7 @@ p {
     margin-top: 10px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 670px) {
 #textinvideo {
     color: #C7A83A;
     font-size: 14px;
@@ -153,15 +151,7 @@ p {
     font-size: 10px;
     font-family: 'Dancing Script', cursive;
 }
-.first_menu {
-    background-color: #C7A83A;
-    margin-top: 10px;
-    text-align: center;
-    height: 35px;
-    font-family: 'Slabo 27px', serif;
-    padding-top: 8px;
-    margin-left: -3px;
-}
+
 .menubuttons {
     margin: -9px;
     color: white;
@@ -179,23 +169,23 @@ p {
     margin-bottom: 10px;
 }
 .aboutSY {
-    margin-left: 59px;
+    margin-left: 18%;
     padding-top: 52px;
     font-size: 19px;
     margin-bottom: 48px;
 }
-.firstpara_div {
+/*.firstpara_div {
     margin-top: 6%;
     padding-left: 16%;
-}
+}*/
 .firstpara_img {
     height: 197px;
     width: 224px;
 }
-.firstpara_div {
+/*.firstpara_div {
     margin-top: 10%;
     padding-left: 14%;
-}
+}*/
 .client_logo {
     display: inline-block;
     height: 56%;
@@ -254,10 +244,10 @@ p {
     font-size: 19px;
     font-family: 'Dancing Script', cursive;
 }
-.firstpara_div {
+/*.firstpara_div {
     margin-top: 36%;
     padding-left: 2%;
-}
+}*/
 .sectionlines {
     border: 2px solid #C7A83A;
     margin: 32px;
@@ -291,10 +281,10 @@ p {
     font-size: 19px;
     font-family: 'Dancing Script', cursive;
 }
-.firstpara_div {
+/*.firstpara_div {
     margin-top: 47%;
     padding-left: 2%;
-}
+}*/
 .sectionlines {
     border: 2px solid #C7A83A;
     margin: 32px;
@@ -306,5 +296,35 @@ p {
     margin: 10px;
 }
 .pad-l-vid{
-    padding-left:70px!important;
+    padding-left:20px!important;
+}
+
+.audio-width{
+    width: 95%;
+    margin-top: 30px;
+}
+
+.color-gold{
+    background-color: #C7A83A;
+    border-color: #C7A83A;
+    color:white;
+    transition: all 1s ease-in-ease-out;
+}
+
+.color-gold:hover{
+    background-color: white;
+    border-color: white;
+    color:#C7A83A;;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 3px!important;
+}
+
+.margin-left-ul{
+    padding-left: 0px;
 }
